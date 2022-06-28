@@ -14,12 +14,12 @@ public class Main {
             if (userName.equalsIgnoreCase("Alice")) {
                 System.out.println("Hello " + userName + ".");
                 break;
-
             } else if (userName.equalsIgnoreCase("Bob")) {
                 System.out.println("Hello " + userName + ".");
                 break;
             } else {
-                System.out.println("");
+                System.out.println("Sorry. I was looking for Alice and/or Bob.");
+                break;
             }
         }
 
